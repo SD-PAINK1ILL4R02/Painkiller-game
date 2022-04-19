@@ -75,7 +75,7 @@ def madrab2_up():
             madrab2.sety(y) # bdelt y 9dima b y jdida
 def madrab2_down():
         y=madrab2.ycor()
-        if y <= -240:
+        if y >= -240:
             y+= -20 #bchhal kihbet
             madrab2.sety(y) # bdelt y 9dima b y jdida
 
